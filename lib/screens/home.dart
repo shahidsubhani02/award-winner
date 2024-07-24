@@ -33,6 +33,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
+  // ignore: non_constant_identifier_names
   Expanded nobel_prize() {
     return Expanded(
         child: FutureBuilder<PrizeModel>(
@@ -106,7 +107,7 @@ class _HomePageState extends State<HomePage> {
                     },
                     child: Card(
                       color: Colors.yellow.shade50,
-                      shadowColor: Color.fromARGB(255, 238, 191, 51),
+                      shadowColor: const Color.fromARGB(255, 238, 191, 51),
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Column(
