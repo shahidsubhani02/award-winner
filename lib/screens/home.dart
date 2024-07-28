@@ -18,14 +18,14 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text(
           'Nobel Prizes',
-          style: TextStyle(color: Colors.black, letterSpacing: 0.4),
+          style: TextStyle(color: Colors.black, letterSpacing: 0.5),
         ),
         centerTitle: true,
         backgroundColor: Colors.amberAccent.shade200,
       ),
       backgroundColor: Colors.amber.shade50,
       body: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.all(9.0),
         child: Column(
           children: [nobel_prize()],
         ),
