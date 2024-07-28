@@ -63,7 +63,7 @@ class _DetailsScrenState extends State<DetailsScren> {
                     Text(
                       widget.knowName,
                       style: const TextStyle(
-                          fontSize: 20,
+                          fontSize: 22,
                           fontWeight: FontWeight.bold,
                           letterSpacing: 0.3),
                     )

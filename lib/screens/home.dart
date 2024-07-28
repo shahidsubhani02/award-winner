@@ -143,7 +143,7 @@ class _HomePageState extends State<HomePage> {
                                   const TextStyle(fontWeight: FontWeight.w300),
                             ),
                             SizedBox(
-                              height: MediaQuery.of(context).size.height * 0.01,
+                              height: MediaQuery.of(context).size.height * 0.02,
                             ),
                             Text(
                               'Motivation: ${snapshot.data!.nobelPrizes![index].laureates![index - index].motivation}',
